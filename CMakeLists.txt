@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.14.8)
+project(platform)
+add_executable(${PROJECT_NAME} main.cpp)
+add_subdirectory(source)
+target_include_directories(${PROJECT_NAME} PUBLIC source)
+target_link_libraries(${PROJECT_NAME} platformlib)
