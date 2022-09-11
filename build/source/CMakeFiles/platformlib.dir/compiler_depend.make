@@ -262,7 +262,6 @@ source/CMakeFiles/platformlib.dir/platform.cpp.o: ../source/platform.cpp \
   /opt/homebrew/opt/llvm/include/c++/v1/__memory/raw_storage_iterator.h \
   /opt/homebrew/opt/llvm/include/c++/v1/__memory/shared_ptr.h \
   /opt/homebrew/opt/llvm/include/c++/v1/__memory/unique_ptr.h \
-  /opt/homebrew/opt/llvm/include/c++/v1/__memory/auto_ptr.h \
   /opt/homebrew/opt/llvm/include/c++/v1/atomic \
   /opt/homebrew/opt/llvm/include/c++/v1/__thread/poll_with_backoff.h \
   /opt/homebrew/opt/llvm/include/c++/v1/chrono \
@@ -1170,10 +1169,6 @@ source/CMakeFiles/platformlib.dir/platform.cpp.o: ../source/platform.cpp \
 
 /opt/homebrew/opt/llvm/include/c++/v1/__tuple:
 
-/opt/homebrew/opt/llvm/include/c++/v1/utility:
-
-/opt/homebrew/opt/llvm/include/c++/v1/__memory/auto_ptr.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_ctermid.h:
 
 /opt/homebrew/opt/llvm/include/c++/v1/__concepts/totally_ordered.h:
@@ -1527,5 +1522,7 @@ source/CMakeFiles/platformlib.dir/platform.cpp.o: ../source/platform.cpp \
 /opt/homebrew/opt/llvm/include/c++/v1/__config_site:
 
 /opt/homebrew/opt/llvm/include/c++/v1/__utility/transaction.h:
+
+/opt/homebrew/opt/llvm/include/c++/v1/utility:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/locale.h:

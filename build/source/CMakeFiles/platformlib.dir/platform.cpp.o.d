@@ -260,7 +260,6 @@ source/CMakeFiles/platformlib.dir/platform.cpp.o: \
   /opt/homebrew/opt/llvm/bin/../include/c++/v1/__memory/raw_storage_iterator.h \
   /opt/homebrew/opt/llvm/bin/../include/c++/v1/__memory/shared_ptr.h \
   /opt/homebrew/opt/llvm/bin/../include/c++/v1/__memory/unique_ptr.h \
-  /opt/homebrew/opt/llvm/bin/../include/c++/v1/__memory/auto_ptr.h \
   /opt/homebrew/opt/llvm/bin/../include/c++/v1/atomic \
   /opt/homebrew/opt/llvm/bin/../include/c++/v1/__thread/poll_with_backoff.h \
   /opt/homebrew/opt/llvm/bin/../include/c++/v1/chrono \
