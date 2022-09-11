@@ -508,8 +508,16 @@ CMakeFiles/platform.dir/main.cpp.o: ../main.cpp \
   /opt/homebrew/opt/llvm/include/c++/v1/__filesystem/path_iterator.h \
   /opt/homebrew/opt/llvm/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /opt/homebrew/opt/llvm/include/c++/v1/__filesystem/u8path.h \
-  /opt/homebrew/opt/llvm/include/c++/v1/sstream
+  /opt/homebrew/opt/llvm/include/c++/v1/sstream \
+  ../source/json/json.h \
+  /opt/homebrew/opt/llvm/include/c++/v1/array \
+  /opt/homebrew/opt/llvm/include/c++/v1/deque \
+  /opt/homebrew/opt/llvm/include/c++/v1/stack
 
+
+/opt/homebrew/opt/llvm/include/c++/v1/array:
+
+../source/json/json.h:
 
 /opt/homebrew/opt/llvm/include/c++/v1/sstream:
 
@@ -1211,6 +1219,8 @@ CMakeFiles/platform.dir/main.cpp.o: ../main.cpp \
 
 /opt/homebrew/opt/llvm/include/c++/v1/iosfwd:
 
+/opt/homebrew/opt/llvm/include/c++/v1/stack:
+
 /opt/homebrew/opt/llvm/include/c++/v1/__functional/unary_negate.h:
 
 /opt/homebrew/opt/llvm/include/c++/v1/__compare/ordering.h:
@@ -1380,6 +1390,8 @@ CMakeFiles/platform.dir/main.cpp.o: ../main.cpp \
 /opt/homebrew/opt/llvm/include/c++/v1/__functional/mem_fn.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_time_t.h:
+
+/opt/homebrew/opt/llvm/include/c++/v1/deque:
 
 /opt/homebrew/opt/llvm/include/c++/v1/memory:
 

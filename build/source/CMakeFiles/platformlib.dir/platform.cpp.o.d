@@ -506,4 +506,8 @@ source/CMakeFiles/platformlib.dir/platform.cpp.o: \
   /opt/homebrew/opt/llvm/bin/../include/c++/v1/__filesystem/path_iterator.h \
   /opt/homebrew/opt/llvm/bin/../include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /opt/homebrew/opt/llvm/bin/../include/c++/v1/__filesystem/u8path.h \
-  /opt/homebrew/opt/llvm/bin/../include/c++/v1/sstream
+  /opt/homebrew/opt/llvm/bin/../include/c++/v1/sstream \
+  /Users/felipepesantez/Documents/development/cpp/platform/source/json/json.h \
+  /opt/homebrew/opt/llvm/bin/../include/c++/v1/array \
+  /opt/homebrew/opt/llvm/bin/../include/c++/v1/deque \
+  /opt/homebrew/opt/llvm/bin/../include/c++/v1/stack

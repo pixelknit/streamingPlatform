@@ -10,6 +10,7 @@ int main(){
     plt1->AddVideo(vid1);
     plt1->AddVideo(vid2);
     plt1->GetPlatformInfo();
+    plt1->GetJson("netflix.json");
 
     return 0;
 }

@@ -2,6 +2,9 @@
 #include "video.h"
 #include <fstream>
 #include <sstream>
+#include <exception>
+#include "json/json.h"
+
 
 #ifndef _PLT
 #define _PLT
@@ -21,20 +24,18 @@ class Platform{
     public:
         Platform(std::string name):name(std::move(name)){}
 
-        //constexpr void GetPlatformInfo() const; 
-constexpr void GetPlatformInfo() const{
-    std::cout << name << std::endl;
-    for (auto x:videos){
-        x->GetVideoInfo(); 
-    }
-}
+        constexpr void GetPlatformInfo() const{
+            std::cout << name << std::endl;
+            for (auto x:videos){
+                x->GetVideoInfo(); 
+            }
+        }
 
-        void GetCsvData(std::string fname);
+        void GetJson(std::string fname);
         void Subscribe();
         void Unsubscribe();
         void AddVideo(Video* &video);
         void RemoveVideo();
-        void csv(std::istream& str); 
         
 };
 
