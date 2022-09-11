@@ -23,7 +23,7 @@ class Video{
     size_t id;
     
     public:
-        Video(std::string title, std::string genre, size_t id):title(title),genre(genre), id(id){}
+        Video(std::string title, std::string genre, size_t id):title(std::move(title)),genre(std::move(genre)), id(std::move(id)){}
 
         void GetVideoInfo() const{
             std::cout << title << std::endl;

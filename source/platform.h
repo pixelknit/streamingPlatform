@@ -19,7 +19,7 @@ class Platform{
     std::vector<Video*> videos;
 
     public:
-        Platform(std::string name):name(name){}
+        Platform(std::string name):name(std::move(name)){}
 
         //constexpr void GetPlatformInfo() const; 
 constexpr void GetPlatformInfo() const{
