@@ -70,6 +70,7 @@ license you like.
 
 
 
+#define _GLIBCXX_USE_CXX11_ABI 0
 
 
 #ifndef JSON_AMALGAMATED_H_INCLUDED
