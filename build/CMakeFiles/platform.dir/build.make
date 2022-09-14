@@ -73,15 +73,15 @@ CMakeFiles/platform.dir/main.cpp.o: CMakeFiles/platform.dir/flags.make
 CMakeFiles/platform.dir/main.cpp.o: ../main.cpp
 CMakeFiles/platform.dir/main.cpp.o: CMakeFiles/platform.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/felipepesantez/Documents/development/cpp/platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/platform.dir/main.cpp.o"
-	/opt/homebrew/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/platform.dir/main.cpp.o -MF CMakeFiles/platform.dir/main.cpp.o.d -o CMakeFiles/platform.dir/main.cpp.o -c /Users/felipepesantez/Documents/development/cpp/platform/main.cpp
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/platform.dir/main.cpp.o -MF CMakeFiles/platform.dir/main.cpp.o.d -o CMakeFiles/platform.dir/main.cpp.o -c /Users/felipepesantez/Documents/development/cpp/platform/main.cpp
 
 CMakeFiles/platform.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platform.dir/main.cpp.i"
-	/opt/homebrew/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/felipepesantez/Documents/development/cpp/platform/main.cpp > CMakeFiles/platform.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/felipepesantez/Documents/development/cpp/platform/main.cpp > CMakeFiles/platform.dir/main.cpp.i
 
 CMakeFiles/platform.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platform.dir/main.cpp.s"
-	/opt/homebrew/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/felipepesantez/Documents/development/cpp/platform/main.cpp -o CMakeFiles/platform.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/felipepesantez/Documents/development/cpp/platform/main.cpp -o CMakeFiles/platform.dir/main.cpp.s
 
 # Object files for target platform
 platform_OBJECTS = \

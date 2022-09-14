@@ -1,9 +1,12 @@
-#define _GLIBCXX_USE_CXX11_ABI 0
+//#define _GLIBCXX_USE_CXX11_ABI 0
 #include "video.h"
 #include <fstream>
 #include <sstream>
 #include <exception>
-#include "json/json.h"
+//#include </Users/felipepesantez/jsoncpp/include/json/value.h>
+//#include </Users/felipepesantez/jsoncpp/include/json/json.h>
+//#include <jsoncpp/json/value.h>
+//#include <jsoncpp/json/json.h>
 
 
 #ifndef _PLT
@@ -24,14 +27,16 @@ class Platform{
     public:
         Platform(std::string name):name(std::move(name)){}
 
-        constexpr void GetPlatformInfo() const{
+        void ParseCsv(std::string fname);
+
+        void GetPlatformInfo() {
             std::cout << name << std::endl;
-            for (auto x:videos){
+            for (auto x : videos){
                 x->GetVideoInfo(); 
             }
         }
 
-        void GetJson(std::string fname);
+        //void GetJson(std::string fname);
         void Subscribe();
         void Unsubscribe();
         void AddVideo(Video* &video);

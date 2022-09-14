@@ -1,1 +1,1 @@
-/opt/homebrew/opt/llvm/bin/clang++  -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/platform.dir/main.cpp.o -o platform  source/libplatformlib.a 
+/Library/Developer/CommandLineTools/usr/bin/c++ -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/platform.dir/main.cpp.o -o platform  source/libplatformlib.a 

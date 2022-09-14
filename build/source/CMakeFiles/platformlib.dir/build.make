@@ -73,15 +73,15 @@ source/CMakeFiles/platformlib.dir/platform.cpp.o: source/CMakeFiles/platformlib.
 source/CMakeFiles/platformlib.dir/platform.cpp.o: ../source/platform.cpp
 source/CMakeFiles/platformlib.dir/platform.cpp.o: source/CMakeFiles/platformlib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/felipepesantez/Documents/development/cpp/platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object source/CMakeFiles/platformlib.dir/platform.cpp.o"
-	cd /Users/felipepesantez/Documents/development/cpp/platform/build/source && /opt/homebrew/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/CMakeFiles/platformlib.dir/platform.cpp.o -MF CMakeFiles/platformlib.dir/platform.cpp.o.d -o CMakeFiles/platformlib.dir/platform.cpp.o -c /Users/felipepesantez/Documents/development/cpp/platform/source/platform.cpp
+	cd /Users/felipepesantez/Documents/development/cpp/platform/build/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/CMakeFiles/platformlib.dir/platform.cpp.o -MF CMakeFiles/platformlib.dir/platform.cpp.o.d -o CMakeFiles/platformlib.dir/platform.cpp.o -c /Users/felipepesantez/Documents/development/cpp/platform/source/platform.cpp
 
 source/CMakeFiles/platformlib.dir/platform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platformlib.dir/platform.cpp.i"
-	cd /Users/felipepesantez/Documents/development/cpp/platform/build/source && /opt/homebrew/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/felipepesantez/Documents/development/cpp/platform/source/platform.cpp > CMakeFiles/platformlib.dir/platform.cpp.i
+	cd /Users/felipepesantez/Documents/development/cpp/platform/build/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/felipepesantez/Documents/development/cpp/platform/source/platform.cpp > CMakeFiles/platformlib.dir/platform.cpp.i
 
 source/CMakeFiles/platformlib.dir/platform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platformlib.dir/platform.cpp.s"
-	cd /Users/felipepesantez/Documents/development/cpp/platform/build/source && /opt/homebrew/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/felipepesantez/Documents/development/cpp/platform/source/platform.cpp -o CMakeFiles/platformlib.dir/platform.cpp.s
+	cd /Users/felipepesantez/Documents/development/cpp/platform/build/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/felipepesantez/Documents/development/cpp/platform/source/platform.cpp -o CMakeFiles/platformlib.dir/platform.cpp.s
 
 # Object files for target platformlib
 platformlib_OBJECTS = \
