@@ -19,7 +19,7 @@ void Platform::AddVideo(Video* &video){
     ++numberOfVideos;
 }
 
-void Platform::ParseCsv(std::string fname){
+void Platform::ParseCsv(const std::string &fname){
     std::ifstream inputFile;
     inputFile.open(fname);
     std::string line = "";

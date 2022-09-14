@@ -27,7 +27,7 @@ class Platform{
     public:
         Platform(std::string name):name(std::move(name)){}
 
-        void ParseCsv(std::string fname);
+        void ParseCsv(const std::string &fname);
 
         void GetPlatformInfo() const{
             std::cout << name << std::endl;
