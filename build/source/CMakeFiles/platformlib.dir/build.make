@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.22.3/bin/cmake
+CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
-RM = /opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E rm -f
+RM = /usr/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/felipepesantez/Documents/development/cpp/platform
+CMAKE_SOURCE_DIR = /home/felipeserver/Documents/development/cpp/dev/streamingPlatform
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/felipepesantez/Documents/development/cpp/platform/build
+CMAKE_BINARY_DIR = /home/felipeserver/Documents/development/cpp/dev/streamingPlatform/build
 
 # Include any dependencies generated for this target.
 include source/CMakeFiles/platformlib.dir/depend.make
@@ -72,16 +72,16 @@ include source/CMakeFiles/platformlib.dir/flags.make
 source/CMakeFiles/platformlib.dir/platform.cpp.o: source/CMakeFiles/platformlib.dir/flags.make
 source/CMakeFiles/platformlib.dir/platform.cpp.o: ../source/platform.cpp
 source/CMakeFiles/platformlib.dir/platform.cpp.o: source/CMakeFiles/platformlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/felipepesantez/Documents/development/cpp/platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object source/CMakeFiles/platformlib.dir/platform.cpp.o"
-	cd /Users/felipepesantez/Documents/development/cpp/platform/build/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/CMakeFiles/platformlib.dir/platform.cpp.o -MF CMakeFiles/platformlib.dir/platform.cpp.o.d -o CMakeFiles/platformlib.dir/platform.cpp.o -c /Users/felipepesantez/Documents/development/cpp/platform/source/platform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/felipeserver/Documents/development/cpp/dev/streamingPlatform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object source/CMakeFiles/platformlib.dir/platform.cpp.o"
+	cd /home/felipeserver/Documents/development/cpp/dev/streamingPlatform/build/source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/CMakeFiles/platformlib.dir/platform.cpp.o -MF CMakeFiles/platformlib.dir/platform.cpp.o.d -o CMakeFiles/platformlib.dir/platform.cpp.o -c /home/felipeserver/Documents/development/cpp/dev/streamingPlatform/source/platform.cpp
 
 source/CMakeFiles/platformlib.dir/platform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/platformlib.dir/platform.cpp.i"
-	cd /Users/felipepesantez/Documents/development/cpp/platform/build/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/felipepesantez/Documents/development/cpp/platform/source/platform.cpp > CMakeFiles/platformlib.dir/platform.cpp.i
+	cd /home/felipeserver/Documents/development/cpp/dev/streamingPlatform/build/source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/felipeserver/Documents/development/cpp/dev/streamingPlatform/source/platform.cpp > CMakeFiles/platformlib.dir/platform.cpp.i
 
 source/CMakeFiles/platformlib.dir/platform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/platformlib.dir/platform.cpp.s"
-	cd /Users/felipepesantez/Documents/development/cpp/platform/build/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/felipepesantez/Documents/development/cpp/platform/source/platform.cpp -o CMakeFiles/platformlib.dir/platform.cpp.s
+	cd /home/felipeserver/Documents/development/cpp/dev/streamingPlatform/build/source && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/felipeserver/Documents/development/cpp/dev/streamingPlatform/source/platform.cpp -o CMakeFiles/platformlib.dir/platform.cpp.s
 
 # Object files for target platformlib
 platformlib_OBJECTS = \
@@ -93,19 +93,19 @@ platformlib_EXTERNAL_OBJECTS =
 source/libplatformlib.a: source/CMakeFiles/platformlib.dir/platform.cpp.o
 source/libplatformlib.a: source/CMakeFiles/platformlib.dir/build.make
 source/libplatformlib.a: source/CMakeFiles/platformlib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/felipepesantez/Documents/development/cpp/platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libplatformlib.a"
-	cd /Users/felipepesantez/Documents/development/cpp/platform/build/source && $(CMAKE_COMMAND) -P CMakeFiles/platformlib.dir/cmake_clean_target.cmake
-	cd /Users/felipepesantez/Documents/development/cpp/platform/build/source && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/platformlib.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/felipeserver/Documents/development/cpp/dev/streamingPlatform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libplatformlib.a"
+	cd /home/felipeserver/Documents/development/cpp/dev/streamingPlatform/build/source && $(CMAKE_COMMAND) -P CMakeFiles/platformlib.dir/cmake_clean_target.cmake
+	cd /home/felipeserver/Documents/development/cpp/dev/streamingPlatform/build/source && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/platformlib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 source/CMakeFiles/platformlib.dir/build: source/libplatformlib.a
 .PHONY : source/CMakeFiles/platformlib.dir/build
 
 source/CMakeFiles/platformlib.dir/clean:
-	cd /Users/felipepesantez/Documents/development/cpp/platform/build/source && $(CMAKE_COMMAND) -P CMakeFiles/platformlib.dir/cmake_clean.cmake
+	cd /home/felipeserver/Documents/development/cpp/dev/streamingPlatform/build/source && $(CMAKE_COMMAND) -P CMakeFiles/platformlib.dir/cmake_clean.cmake
 .PHONY : source/CMakeFiles/platformlib.dir/clean
 
 source/CMakeFiles/platformlib.dir/depend:
-	cd /Users/felipepesantez/Documents/development/cpp/platform/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/felipepesantez/Documents/development/cpp/platform /Users/felipepesantez/Documents/development/cpp/platform/source /Users/felipepesantez/Documents/development/cpp/platform/build /Users/felipepesantez/Documents/development/cpp/platform/build/source /Users/felipepesantez/Documents/development/cpp/platform/build/source/CMakeFiles/platformlib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/felipeserver/Documents/development/cpp/dev/streamingPlatform/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/felipeserver/Documents/development/cpp/dev/streamingPlatform /home/felipeserver/Documents/development/cpp/dev/streamingPlatform/source /home/felipeserver/Documents/development/cpp/dev/streamingPlatform/build /home/felipeserver/Documents/development/cpp/dev/streamingPlatform/build/source /home/felipeserver/Documents/development/cpp/dev/streamingPlatform/build/source/CMakeFiles/platformlib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : source/CMakeFiles/platformlib.dir/depend
 

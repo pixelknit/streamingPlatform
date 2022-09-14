@@ -45,19 +45,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.22.3/bin/cmake
+CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
-RM = /opt/homebrew/Cellar/cmake/3.22.3/bin/cmake -E rm -f
+RM = /usr/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/felipepesantez/Documents/development/cpp/platform
+CMAKE_SOURCE_DIR = /home/felipeserver/Documents/development/cpp/dev/streamingPlatform
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/felipepesantez/Documents/development/cpp/platform/build
+CMAKE_BINARY_DIR = /home/felipeserver/Documents/development/cpp/dev/streamingPlatform/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -98,14 +98,14 @@ source/clean: source/CMakeFiles/platformlib.dir/clean
 CMakeFiles/platform.dir/all: source/CMakeFiles/platformlib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/platform.dir/build.make CMakeFiles/platform.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/platform.dir/build.make CMakeFiles/platform.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/felipepesantez/Documents/development/cpp/platform/build/CMakeFiles --progress-num=1,2 "Built target platform"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/felipeserver/Documents/development/cpp/dev/streamingPlatform/build/CMakeFiles --progress-num=1,2 "Built target platform"
 .PHONY : CMakeFiles/platform.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/platform.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/felipepesantez/Documents/development/cpp/platform/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/felipeserver/Documents/development/cpp/dev/streamingPlatform/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/platform.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/felipepesantez/Documents/development/cpp/platform/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/felipeserver/Documents/development/cpp/dev/streamingPlatform/build/CMakeFiles 0
 .PHONY : CMakeFiles/platform.dir/rule
 
 # Convenience name for target.
@@ -124,14 +124,14 @@ CMakeFiles/platform.dir/clean:
 source/CMakeFiles/platformlib.dir/all:
 	$(MAKE) $(MAKESILENT) -f source/CMakeFiles/platformlib.dir/build.make source/CMakeFiles/platformlib.dir/depend
 	$(MAKE) $(MAKESILENT) -f source/CMakeFiles/platformlib.dir/build.make source/CMakeFiles/platformlib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/felipepesantez/Documents/development/cpp/platform/build/CMakeFiles --progress-num=3,4 "Built target platformlib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/felipeserver/Documents/development/cpp/dev/streamingPlatform/build/CMakeFiles --progress-num=3,4 "Built target platformlib"
 .PHONY : source/CMakeFiles/platformlib.dir/all
 
 # Build rule for subdir invocation for target.
 source/CMakeFiles/platformlib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/felipepesantez/Documents/development/cpp/platform/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/felipeserver/Documents/development/cpp/dev/streamingPlatform/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/CMakeFiles/platformlib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/felipepesantez/Documents/development/cpp/platform/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/felipeserver/Documents/development/cpp/dev/streamingPlatform/build/CMakeFiles 0
 .PHONY : source/CMakeFiles/platformlib.dir/rule
 
 # Convenience name for target.

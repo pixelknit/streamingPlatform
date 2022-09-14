@@ -12,7 +12,16 @@ int main(){
     //plt1->AddVideo(vid1);
     //plt1->AddVideo(vid2);
     plt1->ParseCsv("netflix.csv");
-    plt1->GetPlatformInfo();
+
+    std::string title;
+    std::cout << "Please enter a video title: ";
+    std::cin >> title;
+    std::cout << "\n";
+
+    
+    plt1->FindMatch(title);
+
+    //plt1->GetPlatformInfo();
     //plt1->GetJson("source/netflix.json");
 
     return 0;

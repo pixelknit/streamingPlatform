@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/felipepesantez/Documents/development/cpp/platform/source/platform.cpp" "source/CMakeFiles/platformlib.dir/platform.cpp.o" "gcc" "source/CMakeFiles/platformlib.dir/platform.cpp.o.d"
+  "/home/felipeserver/Documents/development/cpp/dev/streamingPlatform/source/platform.cpp" "source/CMakeFiles/platformlib.dir/platform.cpp.o" "gcc" "source/CMakeFiles/platformlib.dir/platform.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -29,9 +29,9 @@ class Platform{
 
         void ParseCsv(std::string fname);
 
-        void GetPlatformInfo() {
+        void GetPlatformInfo() const{
             std::cout << name << std::endl;
-            for (auto x : videos){
+            for (const auto &x : videos){
                 x->GetVideoInfo(); 
             }
         }
@@ -41,6 +41,7 @@ class Platform{
         void Unsubscribe();
         void AddVideo(Video* &video);
         void RemoveVideo();
+        void FindMatch(std::string promt);
         
 };
 

@@ -45,16 +45,22 @@ class Video{
 
         {}
 
-        void GetVideoInfo(){
-            std::cout << title << "\n";
-            std::cout << show_id << "\n";
-            std::cout << director << "\n";
-            std::cout << country << "\n";
-            std::cout << date_added << "\n";
-            std::cout << rating << "\n";
-            std::cout << duration << "\n";
-            std::cout << listed_in << "\n";
-            std::cout << release_year << "\n";
+        void GetVideoInfo() const{
+            std::cout << "-----------------------" << "\n";
+            std::cout << "Video title: " << title << "\n";
+            std::cout << "Show id: " << show_id << "\n";
+            std::cout << "Director: " << director << "\n";
+            std::cout << "Country: " << country << "\n";
+            std::cout << "Date added: " << date_added << "\n";
+            std::cout << "Rating: " << rating << "\n";
+            std::cout << "Duration:" << duration << "\n";
+            std::cout << "Listed in: " << listed_in << "\n";
+            std::cout << "Release year: " << release_year << "\n";
+            std::cout << "-----------------------" << "\n";
+        }
+        
+        std::string GetTitle() const{
+            return title;
         }
 
 

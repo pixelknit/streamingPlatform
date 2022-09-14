@@ -1,1 +1,1 @@
-add_library(platformlib platform.cpp platform.h video.h)
+add_library(platformlib platform.cpp video.h platform.h)

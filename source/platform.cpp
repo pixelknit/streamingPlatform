@@ -66,3 +66,13 @@ void Platform::ParseCsv(std::string fname){
 
 
 }
+
+void Platform::FindMatch(std::string promt){
+    for (const auto &vid : videos){
+        if (vid->GetTitle() == promt){
+            std::cout << "Video Found" << "\n";
+            std::cout << "*****************" << "\n";
+            vid->GetVideoInfo(); 
+        } 
+    }
+}

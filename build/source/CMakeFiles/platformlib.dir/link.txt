@@ -1,2 +1,2 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libplatformlib.a CMakeFiles/platformlib.dir/platform.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libplatformlib.a
+/usr/bin/ar qc libplatformlib.a CMakeFiles/platformlib.dir/platform.cpp.o
+/usr/bin/ranlib libplatformlib.a
